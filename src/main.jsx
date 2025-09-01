@@ -23,6 +23,7 @@ import S4FFEmergencyUserAutomation from './pages/S4FFEmergencyUserAutomation.jsx
 import SAPGRCAccessControlServices from './pages/SAPGRCAccessControlServices.jsx';
 import SAPAuthorisationRedesign from './pages/SAPAuthorisationRedesign.jsx';
 import SAPSoDApproach from './pages/SAPSoDApproach.jsx';
+import SAPaccess from './pages/SAPaccess.jsx';
 import ScrollToTop from '../src/components/ScrollToTop.jsx';
 
 console.log('Main.jsx loaded'); // Test log
@@ -61,20 +62,29 @@ createRoot(document.getElementById('root')).render(
           <Route path="/customer-success" element={<CustomerSuccess />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/s4accessarchitecturedesign" element={<S4AccessArchitectureDesign />} />
+          <Route path="/s4-access-architecture-design" element={<S4AccessArchitectureDesign />} />
           <Route path="/careers" element={<Careers />} />
+
+          {/* Service Pages Routes */}   
+          <Route path="/sap-access-management-review" element={<SAPAccessReview />} />
+          <Route path="/sod-stratergy-approach" element={<SAPSoDApproach />} />
+          <Route path="/sap-access-management-automation" element={<SAPaccess />} />
+
+          <Route path="/sap-s4-access-implementation" element={<SAPAuthorisationRedesign />} />
+          <Route path="/sod-role-redesign" element={<SAPAuthorisationConceptDesign />} />
+          <Route path="/reorganisation-ma-projects" element={<SAPAccessSecurityConsulting />} />
+
+          <Route path="/outsourced-access-management" element={<SAPAccessManagementService />} />
+          <Route path="/authorisation-concept-owner" element={<SAPAuthorisationConceptOwnerService />} />
+          <Route path="/security-architect" element={<SAPGRCAccessControlServices />} />
+
+          <Route path="/access-risk-sod-management" element={<SAPSoDManagement />} />
+          <Route path="/ff-log-review-automation" element={<S4FFEmergencyUserAutomation />} />
+          <Route path="/sap-license-optimisation" element={<SAPLicenseCompliance />} />
+          {/* Service Pages Routes ends */}
+
+
           <Route path="/s4accessprojects" element={<S4AccessProjects />} />
-          <Route path="/sapaccesssecurityconsulting" element={<SAPAccessSecurityConsulting />} />
-          <Route path="/sapaccessmanagementservice" element={<SAPAccessManagementService />} />
-          <Route path="/sapsodapproach" element={<SAPSoDApproach />} />
-          <Route path="/sapauthorisationconceptownerservice" element={<SAPAuthorisationConceptOwnerService />} />
-          <Route path="/sapaccessreview" element={<SAPAccessReview />} />
-          <Route path="/saplicensecompliance" element={<SAPLicenseCompliance />} />
-          <Route path="/sapauthorisationconceptdesign" element={<SAPAuthorisationConceptDesign />} />
-          <Route path="/sapsodmanagement" element={<SAPSoDManagement />} />
-          <Route path="/s4ffemergencyuserautomation" element={<S4FFEmergencyUserAutomation />} />
-          <Route path="/sapgrcaccesscontrolservices" element={<SAPGRCAccessControlServices />} />
-          <Route path="/sapauthorisationredesign" element={<SAPAuthorisationRedesign />} />
         </Routes>
       </BrowserRouter>
     </LenisProvider>

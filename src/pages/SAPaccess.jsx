@@ -9,7 +9,7 @@ import image from "../assets/images/About-img/Access.png";
 import { FaCogs, FaUserTie, FaShieldAlt, FaChartLine } from "react-icons/fa";
 
 
-export default function SAPSoDApproach() {
+export default function SAPaccess() {
 
 
 
@@ -40,7 +40,7 @@ export default function SAPSoDApproach() {
       <section className="service-container-1">
         <div className="service-left">
           <h2 className="extra-big-heading-text-white">
-            SoD strategy and approach
+            SAP Access Management Automation
           </h2>
           <p className="text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita repellendus, earum quia nobis hic, nesciunt nisi omnis iste ea dolores quas voluptates necessitatibus distinctio recusandae laboriosam fugiat assumenda in.
@@ -57,15 +57,12 @@ export default function SAPSoDApproach() {
         <div className="service-journey-content sod-journey-content">
           <div className="journey-card sod-journey-card">
             <div className="card-header">
-              <h3 className="big-heading-text-white">Effective SoD Management in SAP: Why a Proactive Approach Matters</h3>
+              <h3 className="big-heading-text-white">Technology-Driven SAP Access Management: Avoiding Common Pitfalls
+              </h3>
               <div className="card-sub-content">
                 <p className="text-white">
-                  Every organization running SAP must manage Segregation of Duties (SoD) to ensure compliance and security.
-                  However, we often see this handled reactively—triggered by audit findings—without a clear strategy, defined objectives, or the right tools in place.
-                </p>
-                <p className="text-white">
-                  This ad-hoc approach can lead to increased costs in SAP access management, while delivering limited improvements in actual compliance and security.
-                  A proactive, well-structured SoD strategy is essential to achieve sustainable control, reduce risk, and optimize resource use.
+                  Effective SAP Access Management is nearly impossible without the right supporting technology. While SAP offers native tools, many third-party vendors provide solutions with varying capabilities and cost to enhance efficiency across your access landscape.
+                  However, a common mistake is selecting a tool without aligning it to a broader access management approach. Without a clear plan and integration into your overall approach, these tools often result in unnecessary costs—without delivering meaningful improvements in compliance, security, or operational value.
                 </p>
               </div>
             </div>
@@ -80,44 +77,48 @@ export default function SAPSoDApproach() {
         <div className="service-solution-content sod-solution-content">
           <div className="solution-grid sod-solution-grid">
             <div className="solution-intro-card sod-solution-intro-card">
-              <h2 className="big-heading-text-white">SAP SoD Strategy and Approach Consulting</h2>
+              <h2 className="big-heading-text-white">SAP Access Management Automation Consulting
+              </h2>
               <div className="card-sub-content">
                 <p className="text-white">
-                  Our consulting service helps organizations design a structured, proactive approach to managing Segregation of Duties (SoD) and SAP access controls.
-                  We work with you to define clear objectives, organize responsibilities, and select the right tools—moving beyond reactive audit responses to a sustainable, cost-effective access management model.
+                  This service helps organizations design a technology strategy that supports effective SAP Access Management and Segregation of Duties (SoD). We guide you in aligning tool selection with your overall access management approach—ensuring that technology investments deliver real value in compliance, security, and efficiency.
                 </p>
-                <p className="text-white">Key deliverables include:</p>
+                <p className="text-white">What we deliver:
+                </p>
               </div>
             </div>
-
 
             <div className="solution-cards sod-deliverables-cards">
               <div className="solution-card">
                 <div className="card-icon">
                   <FaCogs className="icon" />
                 </div>
-                <p className="small-text-white">Assessment of current SoD and access control practices</p>
+                <p className="small-text-white">Assessment of current tools and access management practices
+                </p>
               </div>
 
               <div className="solution-card">
                 <div className="card-icon">
                   <FaUserTie className="icon" />
                 </div>
-                <p className="small-text-white">Definition of governance and process frameworks</p>
+                <p className="small-text-white">Definition of objectives and technology requirements
+                </p>
               </div>
 
               <div className="solution-card">
                 <div className="card-icon">
                   <FaShieldAlt className="icon" />
                 </div>
-                <p className="small-text-white"> Tool selection guidance based on your needs and scale</p>
+                <p className="small-text-white">Evaluation of vendor solutions and fit-for-purpose recommendations
+                </p>
               </div>
 
               <div className="solution-card">
                 <div className="card-icon">
                   <FaChartLine className="icon" />
                 </div>
-                <p className="small-text-white">Roadmap for implementation and continuous improvement</p>
+                <p className="small-text-white">Integration planning to ensure tools support your governance and process framework
+                </p>
               </div>
             </div>
           </div>
@@ -287,17 +288,6 @@ export default function SAPSoDApproach() {
           </div>
         </div>
       </section>
-
-
-
-
-
-
-
-
-
-
-
 
       {/* FAQs section start */}
       <FAQTemplate title="FAQs" faqs={faqs} />

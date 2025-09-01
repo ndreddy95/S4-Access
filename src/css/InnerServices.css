@@ -31,11 +31,27 @@
 }
 
 /* service contents */
-.service-journey-container,
+.service-journey-container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
 .service-solution-container {
     display: flex;
     flex-direction: column;
-    padding: 40px 0px;
+    padding: 0px 0px 100px 0px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.service-solution-container-not {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 100px 0px;
     position: relative;
     overflow: hidden;
     background-color: #ffffff;
@@ -52,7 +68,7 @@
 /* Journey Section Styles */
 .journey-card {
     background: #2E3840;
-    width:93%;
+    width:94%;
     border-radius: 5px;
     padding: 40px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -67,7 +83,7 @@
 
 
 .card-sub-content {
-  margin-top: 15px;
+  margin: 10px 0px;
 }
 
 .questions-grid {
@@ -115,7 +131,7 @@
 .solution-intro-card {
     background: #2E3840;
     border-radius: 5px;
-    width:93%;
+    width:95%;
     padding: 35px;
     border: 1px solid rgba(64, 255, 201, 0.1);
 }
@@ -131,12 +147,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    width:98%;
+    width:100%;
 }
 
 .solution-card {
     background: #2E3840;
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 30px;
     text-align: center;
     border: 1px solid rgba(64, 255, 201, 0.1);
@@ -145,7 +161,6 @@
 
 .solution-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 20px rgba(64, 255, 201, 0.1);
 }
 
 .card-icon {
@@ -598,3 +613,5 @@
   background: transparent;
   border: 2px solid white;
 }
+
+

@@ -6,24 +6,24 @@ import "../css/MegaMenu.css";
 
 const services = [
   { category: "SAP Access Design", items: [
-    { name: "SAP Access Management Review", icon: <FaClipboardCheck />, link: "/sapaccessreview" },
-    { name: "SoD Approach", icon: <FaBalanceScale />, link: "/sapsodapproach" },
-    { name: "SAP Access automation", icon: <FaSyncAlt />, link: "/s4ffemergencyuserautomation" }
+    { name: "SAP Access Management Review", icon: <FaClipboardCheck />, link: "/sap-access-management-review" },
+    { name: "SOD Stratergy Approach", icon: <FaBalanceScale />, link: "/sod-stratergy-approach" },
+    { name: "SAP Access Management Automation", icon: <FaSyncAlt />, link: "/sap-access-management-automation" }
   ]},
   { category: "SAP Access Projects", items: [
-    { name: "S/4 access implementation", icon: <FaCogs />, link: "/sapauthorisationredesign" },
-    { name: "SoD / Role redesign", icon: <FaDraftingCompass />, link: "/sapauthorisationconceptdesign" },
-    { name: "Reorganisation / M&A projects", icon: <FaProjectDiagram />, link: "/sapaccesssecurityconsulting" }
+    { name: "SAP S/4 Access Implementation", icon: <FaCogs />, link: "/sap-s4-access-implementation" },
+    { name: "SoD / Role redesign", icon: <FaDraftingCompass />, link: "/sod-role-redesign" },
+    { name: "Reorganisation / M&A projects", icon: <FaProjectDiagram />, link: "/reorganisation-ma-projects" }
   ]},
   { category: "SAP Access Services", items: [
-    { name: "Outsourced Access Management", icon: <FaUsersCog />, link: "/sapaccessmanagementservice" },
-    { name: "Authorisation Concept Owner", icon: <FaUserTie />, link: "/sapauthorisationconceptownerservice" },
-    { name: "Security Architect", icon: <FaUserShield />, link: "/sapgrcaccesscontrolservices" }
+    { name: "Outsourced Access Management", icon: <FaUsersCog />, link: "/outsourced-access-management" },
+    { name: "Authorisation Concept Owner", icon: <FaUserTie />, link: "/authorisation-concept-owner" },
+    { name: "Security Architect", icon: <FaUserShield />, link: "/security-architect" }
   ]},
   { category: "SAP Access Solutions", items: [
-    { name: "SoD Management", icon: <FaBalanceScale />, link: "/sapsodmanagement" },
-    { name: "FF Log review automation", icon: <FaUserSecret />, link: "/s4ffemergencyuserautomation" },
-    { name: "SAP Licence optimisation", icon: <FaIdBadge />, link: "/saplicensecompliance" }
+    { name: "Access Risk SoD Management", icon: <FaBalanceScale />, link: "/access-risk-sod-management" },
+    { name: "FF Log Review Automation", icon: <FaUserSecret />, link: "/ff-log-review-automation" },
+    { name: "SAP Licence Optimisation", icon: <FaIdBadge />, link: "/sap-license-optimisation" }
   ]}
 ];
 

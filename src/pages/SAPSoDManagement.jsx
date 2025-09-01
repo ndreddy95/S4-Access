@@ -5,24 +5,15 @@ import Footer from "../components/Footer.jsx";
 import { Link } from "react-router-dom";
 import "../css/InnerServices.css";
 import FAQTemplate from '../components/FAQTemplate.jsx';
-import {
-  FaUserPlus,
-  FaClock,
-  FaChartLine,
-  FaMoneyBillWave,
-  FaFileAlt,
-  FaUsers,
-  FaUserTie,
-  FaCogs,
-  FaShieldAlt,
-} from "react-icons/fa";
+import { FaCogs, FaChartLine, FaShieldAlt, FaUserTie, FaUsersCog } from "react-icons/fa";
+
 import image from "../assets/images/About-img/Access.png";
 
 export default function SAPSoDApproach() {
 
 
 
-    const faqs = [
+  const faqs = [
     {
       question: 'Lorem ipsum over two decades of experience with passion for adopting latest technology',
       answer: 'Answer for FAQ 1 goes here. You can customize this content for each page.'
@@ -48,11 +39,11 @@ export default function SAPSoDApproach() {
 
       <section className="service-container-1">
         <div className="service-left">
-          <h2 className="big-heading-text-white">
-      Access Risk SoD Management
+          <h2 className="extra-big-heading-text-white">
+            Access Risk SoD Management
           </h2>
           <p className="text-white">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita repellendus, earum quia nobis hic, nesciunt nisi omnis iste ea dolores quas voluptates necessitatibus distinctio recusandae laboriosam fugiat assumenda in.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis expedita repellendus, earum quia nobis hic, nesciunt nisi omnis iste ea dolores quas voluptates necessitatibus distinctio recusandae laboriosam fugiat assumenda in.
           </p>
         </div>
         <div className="service-right">
@@ -61,75 +52,78 @@ export default function SAPSoDApproach() {
           </div>
         </div>
       </section>
-      
-      <section className="service-journey-container">
-        <div className="service-journey-content">
-          <h2 className="section-title">From Uncertainty to Clarity: Mapping Your SAP Access Management Journey</h2>
-          <div className="journey-card">
-            <div className="card-header">
-              <h3 className="card-title">Key Questions to Address</h3>
-              <div className="card-accent"></div>
-            </div>
-            <div className="questions-grid">
-              <div className="question-item">
-                <span className="question-number">01</span>
-                <p>How exposed is our system, and what is our current level of Segregation of Duties (SoD)?</p>
-              </div>
-              <div className="question-item">
-                <span className="question-number">02</span>
-                <p>Is our operating model truly optimized for an SAP organization of our size?</p>
-              </div>
-              <div className="question-item">
-                <span className="question-number">03</span>
-                <p>How can we maximize the value of our budget—and are there opportunities to reduce costs?</p>
-              </div>
-              <div className="question-item">
-                <span className="question-number">04</span>
-                <p>How should we structure our access management, and where can we find the necessary expertise?</p>
-              </div>
-              <div className="question-item">
-                <span className="question-number">05</span>
-                <p>What are the next steps we should take?</p>
+
+      <section className="service-solution-container-not ">
+        <div className="service-solution-content ">
+          <div className="solution-grid ">
+
+            <div className="solution-intro-card ">
+              <h2 className="big-heading-text-white">Choosing and Implementing an SAP SoD Tool: Common Challenges</h2>
+              <div className="card-sub-content">
+                <p className="text-white">
+                  Every SAP organization requires a clear Segregation of Duties (SoD) approach, supported by the right tool.
+                  However, selecting and implementing such a solution is often challenging. Many organizations lack deep SAP security expertise,
+                  making it difficult to evaluate options and define the necessary risk and control frameworks.
+                </p>
+                <p className="text-white">
+                  Implementation projects can be lengthy and resource-intensive, and the license costs for SoD tools can be significant.
+                  Moreover, operating the solution effectively requires specialized skills and dedicated headcount—resources that are often scarce.
+                </p>
+                <p className="text-white">
+                  Without the right foundation and ongoing support, these projects can result in high long-term costs with limited improvement
+                  in compliance or operational efficiency.
+                </p>
               </div>
             </div>
+
+            <div className="solution-intro-card sod-solution-intro-card">
+              <h2 className="big-heading-text-white">SAM Platform – Streamlined SAP Access Risk & SoD Management</h2>
+              <div className="card-sub-content">
+                <p className="text-white">
+                  s4access offers a proven solution for SAP Access Risk Management and Segregation of Duties (SoD), designed to overcome the common challenges organizations face.
+                  As part of the proprietary s4access platform, the service is fast to implement, typically operational within just a few weeks,
+                  and requires no specialized skills or resources from the customer.
+                </p>
+                <p className="text-white">
+                  The solution includes a comprehensive set of ready-to-use SAP SoD risk definitions, enabling organizations to gain meaningful insights into access risks
+                  without needing deep technical expertise. Delivered as a fully managed service with a fixed monthly fee, it offers a low-risk, high-value approach to access governance.
+                </p>
+              </div>
+            </div>
+
+            <div className="solution-cards sod-deliverables-cards">
+              <div className="solution-card">
+                <div className="card-icon"><FaCogs className="icon" /></div>
+                <p className="text-white">Fast implementation – typically operational within a few weeks</p>
+              </div>
+
+              <div className="solution-card">
+                <div className="card-icon"><FaChartLine className="icon" /></div>
+                <p className="small-text-white">No specialized skills or resources required from the customer</p>
+              </div>
+
+              <div className="solution-card">
+                <div className="card-icon"><FaShieldAlt className="icon" /></div>
+                <p className="small-text-white">Ready-to-use SAP SoD risk definitions for meaningful insights</p>
+              </div>
+
+              <div className="solution-card">
+                <div className="card-icon"><FaUserTie className="icon" /></div>
+                <p className="small-text-white">Fully managed service with a fixed monthly fee</p>
+              </div>
+
+              <div className="solution-card">
+                <div className="card-icon"><FaUsersCog className="icon" /></div>
+                <p className="small-text-white">Proven scalability – hundreds of access risk reports generated annually</p>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
 
-      <section className="service-solution-container">
-        <div className="service-solution-content">
-          <h2 className="section-title">SAP Access Management Improvement Service</h2>
-          <div className="solution-grid">
-            <div className="solution-intro-card">
-              <p>Our service provides a comprehensive understanding of the organization's SAP Access Management landscape and identifies improvement opportunities by analyzing the current state
-              against s4access best practice standards.</p>
-            </div>
-            <div className="solution-cards">
-              <div className="solution-card">
-                <div className="card-icon">
-                  <FaUserTie className="icon" />
-                </div>
-                <h3>Governance</h3>
-                <p>Organizational analysis of responsibilities and skills around related tasks</p>
-              </div>
-              <div className="solution-card">
-                <div className="card-icon">
-                  <FaCogs className="icon" />
-                </div>
-                <h3>Processes</h3>
-                <p>Analysis of user administration and role management processes</p>
-              </div>
-              <div className="solution-card">
-                <div className="card-icon">
-                  <FaShieldAlt className="icon" />
-                </div>
-                <h3>Technical</h3>
-                <p>Snapshot analysis of technical feasibility of SAP roles and current security level</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
+
 
 
       {/* <section className="service-cards-container">
@@ -209,92 +203,88 @@ export default function SAPSoDApproach() {
         </div>
       </section> */}
 
-<section className="strength-showcase">
-  <div className="strength-left">
-    <h2 className="big-heading-text-white">Case Studies</h2>
-    <p className="text-white">
-      Explore how organizations improved compliance, strengthened security, and
-      reduced risks with SAP Access Management Reviews. These studies showcase
-      real-world results, best practices, and measurable business impact.
-    </p>
-  </div>
+      <section className="strength-showcase">
+        <div className="strength-left">
+          <h2 className="big-heading-text-white">Case Studies</h2>
+          <p className="text-white">
+            Explore how organizations improved compliance, strengthened security, and
+            reduced risks with SAP Access Management Reviews. These studies showcase
+            real-world results, best practices, and measurable business impact.
+          </p>
+        </div>
 
-  {/* Case Study 1 - Testimonial */}
-  <div className="strength-right">
-    <div className="stats-card">
-      <p className="small-text-black">⭐ 4.8 (Rating)</p>
-      <p className="text-black">
-        The SAP Access Management review identified critical risks and gave us a
-        clear roadmap to strengthen controls without slowing down operations.
-      </p>
-      <h3 className="sub-heading-text-black">Mark R.</h3>
-      <p className="text-black">CIO, FinCore Solutions</p>
+        {/* Case Study 1 - Testimonial */}
+        <div className="strength-right">
+          <div className="stats-card">
+            <p className="small-text-black">⭐ 4.8 (Rating)</p>
+            <p className="text-black">
+              The SAP Access Management review identified critical risks and gave us a
+              clear roadmap to strengthen controls without slowing down operations.
+            </p>
+            <h3 className="sub-heading-text-black">Mark R.</h3>
+            <p className="text-black">CIO, FinCore Solutions</p>
 
-      <div className="image-container-showcase">
-        {/* <img src={image} alt="testimonial" /> */}
-      </div>
-    </div>
-  </div>
+            <div className="image-container-showcase">
+              {/* <img src={image} alt="testimonial" /> */}
+            </div>
+          </div>
+        </div>
 
-  {/* Case Study 2 - Business Outcome */}
-  <div className="strength-right">
-    <div className="stats-card">
-      <h3 className="sub-heading-text-black">Global Retailer</h3>
-      <h4 className="text-black">40% reduction in access risks</h4>
-      <p className="text-black">
-        Role redesign and SoD (Segregation of Duties) checks helped the client
-        cut down access violations while improving user productivity.
-      </p>
-      <div className="image-container-showcase">
-        {/* <img src={image} alt="case study" /> */}
-      </div>
-    </div>
-  </div>
-
- 
-</section>
-
-<section className="strength-bottom">
-  <div className="stat-card">
-    <div className="stat-box">
-      <div className="stat-topline">
-        <span className="dot"></span>
-        <h3 className="big-heading-text-black">30,000+</h3>
-      </div>
-      <ul className="stat-sub">
-        <li className="text-black">Access risk checks performed</li>
-      </ul>
-    </div>
-  </div>
-
-  <div className="stat-card">
-    <div className="stat-box">
-      <div className="stat-topline">
-        <span className="dot"></span>
-        <h3 className="big-heading-text-black">200M+</h3>
-      </div>
-      <ul className="stat-sub">
-        <li className="text-black">User access transactions secured</li>
-      </ul>
-    </div>
-  </div>
-
-  <div className="stat-card">
-    <div className="stat-box">
-      <div className="stat-topline">
-        <span className="dot"></span>
-        <h3 className="big-heading-text-black">4.8</h3>
-      </div>
-      <ul className="stat-sub">
-        <li className="text-black">Average client satisfaction rating</li>
-      </ul>
-    </div>
-  </div>
-</section>
+        {/* Case Study 2 - Business Outcome */}
+        <div className="strength-right">
+          <div className="stats-card">
+            <h3 className="sub-heading-text-black">Global Retailer</h3>
+            <h4 className="text-black">40% reduction in access risks</h4>
+            <p className="text-black">
+              Role redesign and SoD (Segregation of Duties) checks helped the client
+              cut down access violations while improving user productivity.
+            </p>
+            <div className="image-container-showcase">
+              {/* <img src={image} alt="case study" /> */}
+            </div>
+          </div>
+        </div>
 
 
+      </section>
 
-      
+      <section className="strength-bottom">
+        <div className="stat-card">
+          <div className="stat-box">
+            <div className="stat-topline">
+              <span className="dot"></span>
+              <h3 className="big-heading-text-black">30,000+</h3>
+            </div>
+            <ul className="stat-sub">
+              <li className="text-black">Access risk checks performed</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="stat-card">
+          <div className="stat-box">
+            <div className="stat-topline">
+              <span className="dot"></span>
+              <h3 className="big-heading-text-black">200M+</h3>
+            </div>
+            <ul className="stat-sub">
+              <li className="text-black">User access transactions secured</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="stat-card">
+          <div className="stat-box">
+            <div className="stat-topline">
+              <span className="dot"></span>
+              <h3 className="big-heading-text-black">4.8</h3>
+            </div>
+            <ul className="stat-sub">
+              <li className="text-black">Average client satisfaction rating</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
 
 
@@ -303,7 +293,11 @@ export default function SAPSoDApproach() {
 
 
 
-     {/* FAQs section start */}
+
+
+
+
+      {/* FAQs section start */}
       <FAQTemplate title="FAQs" faqs={faqs} />
       {/* FAQs section end */}
 
